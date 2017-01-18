@@ -28,19 +28,19 @@ figure {
   position: relative;
 }
 
-.stegosaurus {
+figure:last-child {
   transform: rotate(33deg);
   left: 40%;
   bottom: 260px;
 }
 
-.hadrosaur {
+figure:first-child {
   transform: rotate(-10deg);
   left: 20%;
   top: 100px;
 }
 
-.pteranodon {
+figure:nth-last-child(2) {
   transform: rotate(6deg);
   left: 30%;
   bottom: 50px;
