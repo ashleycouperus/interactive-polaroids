@@ -19,6 +19,12 @@ html {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
 }
 
+.polaroid:hover {
+  transform: rotate(0deg);
+  z-index: 200;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 2);
+}
+
 .polaroid > img {
   display: block;
   width: 100%;
@@ -43,7 +49,7 @@ figure {
 figure:last-child {
   transform: rotate(33deg);
   left: 40%;
-  bottom: 240px;
+  top: 100px;
 }
 
 figure:first-child {
@@ -55,6 +61,6 @@ figure:first-child {
 figure:nth-last-child(2) {
   transform: rotate(6deg);
   left: 30%;
-  bottom: 10px;
+  top: 100px;
   z-index: 100;
 }
