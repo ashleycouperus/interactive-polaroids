@@ -31,7 +31,7 @@ figure {
 .stegosaurus {
   transform: rotate(33deg);
   left: 40%;
-  bottom: 80px;
+  bottom: 260px;
 }
 
 .hadrosaur {
@@ -43,5 +43,5 @@ figure {
 .pteranodon {
   transform: rotate(6deg);
   left: 30%;
-  bottom: 200px;
+  bottom: 50px;
 }
