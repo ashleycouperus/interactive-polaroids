@@ -9,6 +9,11 @@ html {
   padding: 10px;
   width: 250px;
 
+  position: absolute;
+  top: 5em;
+  left: 50%;
+  transition: all 200ms linear;
+
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
@@ -22,6 +27,13 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  top: 120px;
+  left: 80px;
+}
+
+body {
+  position: relative;
 }
 
 figure {
@@ -31,7 +43,7 @@ figure {
 figure:last-child {
   transform: rotate(33deg);
   left: 40%;
-  bottom: 260px;
+  bottom: 240px;
 }
 
 figure:first-child {
@@ -43,5 +55,6 @@ figure:first-child {
 figure:nth-last-child(2) {
   transform: rotate(6deg);
   left: 30%;
-  bottom: 50px;
+  bottom: 10px;
+  z-index: 100;
 }
