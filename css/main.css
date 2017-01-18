@@ -23,3 +23,15 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.stegosaurus {
+  transform: rotate(33deg);
+}
+
+.hadrosaur {
+  transform: rotate(-33deg);
+}
+
+.pteranodon {
+  transform: rotate(6deg);
+}
