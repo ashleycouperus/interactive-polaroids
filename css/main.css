@@ -24,14 +24,24 @@ html {
   text-shadow: 1px 1px 3px #000;
 }
 
+figure {
+  position: relative;
+}
+
 .stegosaurus {
   transform: rotate(33deg);
+  left: 40%;
+  bottom: 80px;
 }
 
 .hadrosaur {
-  transform: rotate(-33deg);
+  transform: rotate(-10deg);
+  left: 20%;
+  top: 100px;
 }
 
 .pteranodon {
   transform: rotate(6deg);
+  left: 30%;
+  bottom: 200px;
 }
